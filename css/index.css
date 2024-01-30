@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Grape+Nuts&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Grape+Nuts&family=Rubik:wght@300&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+body{
+    background-color: black;
+}
+.home_stor{
+    display: flex;
+    background-color: black;
+    padding: 25px;
+}
+.main_img{
+    width: 800px;
+    border-right: 2px dotted #505050;
+}
+.main_img1{
+    border-radius: 10px;
+}
+.h1{
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+    color: #fff2e2;
+}
+.by{
+    margin-top: 20px;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Grape Nuts Bold', cursive;
+    font-family: 'Rubik', sans-serif;
+    color: #fff2e2;
+}
+.discription{
+    color: white;
+    margin-top: 20px;
+}
