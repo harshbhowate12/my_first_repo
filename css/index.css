@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Grape+Nuts&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Grape+Nuts&family=Rubik:wght@300&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Grape+Nuts&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&family=IBM+Plex+Sans:wght@700&family=Lobster&display=swap');
 body{
-    background-color: black;
+    
 }
 .home_stor{
     display: flex;
     background-color: black;
-    padding: 25px;
+    padding: 25px 15px 0px 25px;
 }
 .main_img{
     width: 800px;
@@ -19,12 +22,16 @@ body{
 }
 .h1{
     margin-top: 10px;
+    margin-right: 0;
+    padding: 0;
     font-size: 40px;
     font-family: 'DM Serif Display', serif;
     color: #fff2e2;
 }
 .by{
     margin-top: 20px;
+    margin-right: 0;
+    padding: 0;
     font-family: 'DM Serif Display', serif;
     font-family: 'Grape Nuts Bold', cursive;
     font-family: 'Rubik', sans-serif;
@@ -33,4 +40,76 @@ body{
 .discription{
     color: white;
     margin-top: 20px;
+    margin-right: 0;
+    padding: 0;
+}
+.other_stor{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin:0;
+}
+.img2_h1{
+    font-size: 20px;
+    font-family: 'Lobster', sans-serif;
+    color: #fafafa;
+    margin-top: 10px;
+}
+.by2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff2e2;
+}
+.img3{
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.b2{
+    margin-bottom: 40px;
+}
+.more_stor{
+    background-color: #fafafa;
+    padding: 20px 30px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+    text-align: center;
+}
+.box{
+    background-color: #fafafa;
+    padding: 25px;
+    width: 100%;
+}
+.box1{
+    border-radius: 10px 10px 0 0;
+    width: 426px;
+}
+.m1{
+    border-radius: 10px 10px 0 0;
+}
+.b1{
+    padding: 10px 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+.tp{
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: inline-block;
+    padding: 3px;
+    background-color: #fff2e2;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.tp2{
+    display: inline-block;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 3px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.cap{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    
 }
