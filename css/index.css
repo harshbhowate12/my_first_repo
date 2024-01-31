@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&family=IBM+Plex+Sans:wght@700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=IBM+Plex+Sans:wght@700&family=Lobster&display=swap');
 body{
     
 }
@@ -77,13 +77,14 @@ body{
     text-align: center;
 }
 .box{
+    display: flex;
     background-color: #fafafa;
     padding: 25px;
-    width: 100%;
 }
 .box1{
-    border-radius: 10px 10px 0 0;
-    width: 426px;
+    border-radius: 10px 10px 10px 10px;
+    width: 380px;
+    box-shadow: 5px 5px 10px 2px black;
 }
 .m1{
     border-radius: 10px 10px 0 0;
@@ -111,5 +112,13 @@ body{
 .cap{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 30px;
-    
+}
+.info{
+    margin-top: 10px;
+    color: #474747;
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+.sp{
+    margin-left: 30px;
 }
