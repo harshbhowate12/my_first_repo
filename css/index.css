@@ -122,3 +122,8 @@ body{
 .sp{
     margin-left: 30px;
 }
+.box4{
+    display: flex;
+    background-color: #fafafa;
+    padding: 25px;
+}
